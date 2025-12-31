@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# uv
+.uv/
+uv.lock.bak
+
+# Data / indexes (do not commit)
+data/
+indexes/
+reports/
+
+# OS
+.DS_Store
