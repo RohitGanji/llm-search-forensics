@@ -5,9 +5,12 @@ description = "Enterprise LLM search evaluation and failure forensics framework"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "beautifulsoup4>=4.14.3",
     "beir>=2.2.0",
     "faiss-cpu>=1.13.2",
+    "httpx>=0.28.1",
     "ir-datasets>=0.5.11",
+    "lxml>=5.4.0",
     "numpy>=2.4.0",
     "orjson>=3.11.5",
     "pandas>=2.3.3",
@@ -17,4 +20,9 @@ dependencies = [
     "sentence-transformers>=5.2.0",
     "tiktoken>=0.12.0",
     "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
 ]
